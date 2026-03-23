@@ -70,19 +70,19 @@ const CONFIG = {
   // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
   PROXIO_CAREERS: [
     {
-      title: 'Freelance Architect',
-      bio: '2016-2020',
-      text: 'As a freelance architect, I worked on a range of residential and commercial projects, balancing form and function. I collaborated with clients and contractors to transform concepts into reality, ensuring each design was both aesthetically pleasing and structurally sound.'
+      title: '视觉艺术与资本逻辑的探索期',
+      bio: '2014 - 2019',
+      text: '核心身份： 爱奇艺《笑霸来了》编导、央视《发现之旅》技术总监、太阳在线 CFO. 在这段时期，我游走于极具张力的创意现场与严谨的财务模型之间。在爱奇艺与中央电视台的经历，让我构建了对专业影像叙事与媒介底层技术的深刻理解；而担任太阳在线 CFO 的历程，则让我开始从资本与逻辑的视角审视市场，这一阶段，我学会了如何用“光”去表达美，并开始寻找属于资产的“锚”.'
     },
     {
-      title: 'Product Designer at Spotify',
-      bio: '2020-2022',
-      text: 'At Spotify, I helped shape innovative features for millions of users globally. My focus was on creating seamless music discovery experiences, enhancing user interfaces, and optimizing cross-platform navigation, which led to an improved product flow and increased user satisfaction.'
+      title: '内容叙事与知识传递的转型期',
+      bio: '2019 - 2022',
+      text: '核心身份： 短剧制片人、大学讲师. 随着移动互联网进入碎片化叙事时代，我以制片人的身份投身短剧创作，探索在极短时间内激发情感共鸣的可能。与此同时，我走上大学讲台，开始将过往的实战经验转化为结构化的知识, 讲台上的教学相长，让我意识到：真正的技术，应当是赋能于人的温暖力量.'
     },
     {
-      title: 'Freelance Product Designer',
+      title: '光与锚：技术驱动的跨界实践期',
       bio: '2022-Now',
-      text: 'Now I design user-centric products that align with client visions. As a freelance product designer, I collaborate with startups and established companies, crafting solutions that elevate user experiences and increase engagement across both digital and physical interfaces.'
+      text: '核心身份： 佑卿传媒「光与锚」创始人、Blender 开发者、外汇对冲策略专家, 这是我职业生涯从多元积累走向系统爆发的黄金期。我创立了 「光与锚 Light-Anchor」，致力于打通视觉记录、GEO 传播、智启咨询与资产守护的闭环，专注于黄金（XAUUSD）期现对冲策略，在市场的波动中捕捉确定性的复利回响.'
     }
   ],
 
