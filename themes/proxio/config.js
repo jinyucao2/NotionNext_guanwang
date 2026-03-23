@@ -38,26 +38,26 @@ const CONFIG = {
   // 特性区块
   PROXIO_FEATURE_ENABLE: true, // 特性区块开关
   PROXIO_FEATURE_TITLE: '为什么选我',
-  PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
-  PROXIO_FEATURE_TEXT_2: '丰富的案例经验，专业的技术服务，优质的沟通效率',
+  PROXIO_FEATURE_TEXT_1: '在不确定的浪潮里 构建确定的价值',
+  PROXIO_FEATURE_TEXT_2: '每一个项目，都是一次深度的价值交换与信任托付',
 
   // 特性1
   PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
   PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
-  PROXIO_FEATURE_1_TITLE_1: '高效工作流程',
+  PROXIO_FEATURE_1_TITLE_1: '审美驱动的叙事',
   PROXIO_FEATURE_1_TEXT_1:
-    '精简的设计流程确保快速交付，在紧迫的工期下仍能保证品质与细节不打折扣。',
+    '不止于专业视频制作。我们通过技术与艺术的共振，捕捉品牌灵魂中最具生命力的光影，让视觉成为直抵人心的力量。',
 
   PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
   PROXIO_FEATURE_2_ICON_IMG_URL: '',
-  PROXIO_FEATURE_2_TITLE_1: '协作式流程',
-  PROXIO_FEATURE_2_TEXT_1: '与你紧密合作，融合反馈意见，打造超越预期的项目',
+  PROXIO_FEATURE_2_TITLE_1: '通向未来的桥梁',
+  PROXIO_FEATURE_2_TEXT_1: '拒绝技术焦虑。作为教育者，我们通过 AI 咨询与 GEO 优化，让您的品牌语义在生成式时代获得最清晰、最权威的表达',
 
   PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
   PROXIO_FEATURE_3_ICON_IMG_URL: '',
-  PROXIO_FEATURE_3_TITLE_1: '细节把控',
+  PROXIO_FEATURE_3_TITLE_1: '可复现的安全感',
   PROXIO_FEATURE_3_TEXT_1:
-    '精益求精雕琢每个元素，确保成品精致统一，令人过目难忘',
+    '所有的套利逻辑均公开、透明且经得起推敲。我们不追求爆发式的增长，只追求在安全边界内的稳步前行',
 
   PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
   PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
