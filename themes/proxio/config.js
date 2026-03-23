@@ -199,7 +199,7 @@ const CONFIG = {
   PROXIO_BRANDS: [
     'Video Design',
     'GEO Services,
-    'Business Consulting',
+    'Business',
     'Foreign exchange trading'
   ],
 
