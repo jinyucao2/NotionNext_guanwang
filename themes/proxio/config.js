@@ -3,7 +3,7 @@
  */
 const CONFIG = {
   PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-  PROXIO_WELCOME_TEXT: '所谓技术，应是热爱的延伸 所谓财富，应是自由的底气', // 欢迎文字，留空则不启用
+  PROXIO_WELCOME_TEXT: '所谓技术 应是热爱的延伸 所谓财富 应是自由的底气', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
@@ -33,7 +33,7 @@ const CONFIG = {
   PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: '',
   PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: '',
 
-  PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
+  PROXIO_ANNOUNCEMENT_ENABLE: False, //公告文字区块
 
   // 特性区块
   PROXIO_FEATURE_ENABLE: true, // 特性区块开关
@@ -264,7 +264,7 @@ const CONFIG = {
   // 页面底部的行动呼吁模块
   PROXIO_CTA_ENABLE: true,
   PROXIO_CTA_TITLE: '与我建立联系',
-  PROXIO_CTA_TITLE_2: '既然已经走到了这里 不如我们聊聊？',
+  PROXIO_CTA_TITLE_2: '既然来了 不如我们聊聊？',
   PROXIO_CTA_DESCRIPTION:
     '技术只是手段，理解才是开始。无论您是想为品牌重塑光影，还是想为资产寻找锚点，我都愿意倾听您的故事',
   PROXIO_CTA_BUTTON: true, // 是否显示按钮
