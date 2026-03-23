@@ -198,7 +198,7 @@ const CONFIG = {
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
   PROXIO_BRANDS: [
     'Video Design',
-    'GEO Services,
+    'GEO Services',
     'Business',
     'Foreign exchange trading'
   ],
