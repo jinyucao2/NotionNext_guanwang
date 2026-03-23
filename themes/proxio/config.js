@@ -177,10 +177,10 @@ const CONFIG = {
 
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-  PROXIO_ABOUT_TITLE: '关于作者',
-  PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
+  PROXIO_ABOUT_TITLE: '关于创始人',
+  PROXIO_ABOUT_TEXT_1: '大学讲师 视觉艺术家 数字策略师',
   PROXIO_ABOUT_TEXT_2:
-    'With a background in architecture, I now apply my expertise to product design, blending aesthetics, functionality, and innovation. My goal is to create modern, user-focused designs that bring your vision to life.',
+    '在大学讲坛，我致力于探索数字媒体与 AI 的边界，播种创意的种子；在商业战场，我通过 GEO（生成式引擎优化） 与专业视觉叙事，为品牌重塑影响力。我相信技术不应是冰冷的算法，而应是热爱的延伸。于是我构建了 「光与锚 Light-Anchor」 —— 用视觉捕捉光影，用数学逻辑锚定安全，在巨变的时代里，为您和您的资产寻找一份长久的确定性。.',
   PROXIO_ABOUT_PHOTO_URL: '/avatarone.png',
   PROXIO_ABOUT_KEY_1: '经验年限',
   PROXIO_ABOUT_VAL_1: '10年+',
