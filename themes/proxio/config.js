@@ -91,7 +91,7 @@ const CONFIG = {
   PROXIO_TESTIMONIALS_TITLE: '用户反馈',
   PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
   PROXIO_TESTIMONIALS_TEXT_2:
-    '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
+    '高校课堂的学术探讨，到商业前沿的技术落地。我们有幸见证了众多品牌在 AI 浪潮中重塑表达，也陪伴了许多理性投资者在波动中找到了稳健的锚点',
 
   // 用户测评处的跳转按钮
   PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
@@ -101,53 +101,53 @@ const CONFIG = {
   PROXIO_TESTIMONIALS_ITEMS: [
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ ',
+        '王老师对技术的运用极其克制且精准。在合作 AI 影视项目时，他不仅提供了电影级的视觉方案，更通过他的教学思维帮我们的团队理清了未来的技术流。与其说是一次交付，不如说是一场深刻的审美进修 ',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '小鹤',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '艺术总监',
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '很喜欢这个主题，本代码小白用三天台风假期搭建出来了，还根据大佬的教程弄了自定义域名，十分感谢，已请喝咖啡~',
+        '在外汇这个充满博弈的行业，很少见到如此坦诚且逻辑闭环的策略。黄金期现套利不追求夸张的爆发，但那种‘看得见、睡得香’的确定性增长，才是当下巨变环境下最珍贵的资产‘避风港',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '阿森的百宝袋 站长',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'netguest',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '忠实托管客户',
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '呜呜呜，经过一个下午的努力，终于把博客部署好啦，非常感谢Tangly1024大佬的框架和教程，这是我有生之年用过的最好用的博客框架┭┮﹏┭┮。从今之后，我就可以在自己的博客里bb啦，( •̀ ω •́ )y ',
+        '在大学期间，王老师的课就是我们通往数字艺术边界的窗口。他不仅教会了我们如何驾驭 Touch Designer 和 AI 工具，更传授了那种‘技术服务于叙事’的克制感。即便毕业多年，我在创作遇到瓶颈时，依然会回到他的空间寻找启发，( •̀ ω •́ )y ',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '小谢不用谢',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '策展设计师',
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
+        '作为一个小品牌，我们没有巨额预算去投广告。GEO 服务最让我感触的是它的人文关怀——它不是在教我如何钻算法空子，而是在帮我向 AI 讲好品牌故事，我知道我的坚持终于被看懂了',
       PROXIO_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Siven ',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '国风化妆品领航者',
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
-        '灰常感谢大佬的博客项目，能将博客和notion结合起来，这一直是我挺期待的博客模式。',
+        '金融的本质是信任。在合作黄金托管业务的过程中，最吸引我的不是那份收益表，而是背后那种保底、稳健、不冒进的理财哲学。这种安全感，源于一个跨界者对规则的敬畏，也源于一份想要为普通人构建资产护城河的初心',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Jhon',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '盾博投资者',
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     },
     {
-      PROXIO_TESTIMONIALS_ITEM_TEXT: '用好久了，太感谢了',
+      PROXIO_TESTIMONIALS_ITEM_TEXT: 'Blender插件很好用，公众号给我启发很大666',
       PROXIO_TESTIMONIALS_ITEM_AVATAR: '/avatar.png',
-      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
-      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
-      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
+      PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'FD',
+      PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Blender爱好者',
+      PROXIO_TESTIMONIALS_ITEM_URL: ''
     }
   ],
 
