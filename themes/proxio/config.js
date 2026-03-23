@@ -199,7 +199,7 @@ const CONFIG = {
   PROXIO_BRANDS: [
     'Video Design',
     'GEO Services',
-    'Business',
+    'Business Consulting',
     'Foreign exchange trading'
   ],
 
@@ -264,12 +264,12 @@ const CONFIG = {
   // 页面底部的行动呼吁模块
   PROXIO_CTA_ENABLE: true,
   PROXIO_CTA_TITLE: '与我建立联系',
-  PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+  PROXIO_CTA_TITLE_2: '既然已经走到了这里 不如我们聊聊？',
   PROXIO_CTA_DESCRIPTION:
-    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+    '技术只是手段，理解才是开始。无论您是想为品牌重塑光影，还是想为资产寻找锚点，我都愿意倾听您的故事',
   PROXIO_CTA_BUTTON: true, // 是否显示按钮
   PROXIO_CTA_BUTTON_URL: '/about',
-  PROXIO_CTA_BUTTON_TEXT: '联系我',
+  PROXIO_CTA_BUTTON_TEXT: '预约一次 15 分钟的线上连线',
 
   PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
   PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
