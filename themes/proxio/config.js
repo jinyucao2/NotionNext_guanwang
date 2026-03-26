@@ -28,10 +28,10 @@ const CONFIG = {
   PROXIO_BLOG_TEXT_1: '我们的主要业务',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: '',
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: '',
-  PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: '',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '/LIGHT1.webp', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_2: '/LIGHT2.webp',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_3: '/LIGHT5.webp',
+  PROXIO_BLOG_PLACEHOLDER_IMG_URL_4: '/LIGHT6.webp',
 
   PROXIO_ANNOUNCEMENT_ENABLE: false, //公告文字区块
 
