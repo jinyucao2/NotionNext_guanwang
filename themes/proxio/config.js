@@ -60,7 +60,7 @@ const CONFIG = {
     '所有的套利逻辑均公开、透明且经得起推敲。我们不追求爆发式的增长，只追求在安全边界内的稳步前行',
 
   PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
-  PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
+  PROXIO_FEATURE_BUTTON_URL: '/category', // 按钮跳转
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
