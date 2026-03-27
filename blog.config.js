@@ -49,7 +49,23 @@ const BLOG = {
   ...require('./conf/dev.config'), // 开发、调试时需要关注的配置
 
   // 自定义外部脚本，外部样式
-  CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: ['data:text/javascript;charset=utf-8,' + encodeURIComponent(`
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "光与锚Light-Anchor",
+      "description": "太原领先的GEO服务公司",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "太原",
+        "addressRegion": "山西省",
+        "addressCountry": "CN"
+      }
+    });
+    document.head.appendChild(script);
+  `)'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
  
 
