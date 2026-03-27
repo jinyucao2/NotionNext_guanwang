@@ -51,25 +51,7 @@ const BLOG = {
   // 自定义外部脚本，外部样式
   CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
-  CUSTOM_EXTERNAL_JS: [
-  'data:text/javascript;charset=utf-8,' + encodeURIComponent(`
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "光与锚Light-Anchor",
-      "description": "太原领先的GEO服务公司",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "太原",
-        "addressRegion": "山西省",
-        "addressCountry": "CN"
-      }
-    });
-    document.head.appendChild(script);
-  `)
-],
+ 
 
   // 自定义菜单
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu类型的菜单，替代了3.12版本前的Page类型
