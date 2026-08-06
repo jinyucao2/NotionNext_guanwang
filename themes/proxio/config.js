@@ -2,11 +2,7 @@
  * 另一个落地页主题
  */
 const CONFIG = {
-  PROXIO_COLOR_PRIMARY: '',
-  PROXIO_COLOR_PRIMARY_HOVER: '',
-  PROXIO_COLOR_BG: '',
-  PROXIO_COLOR_DARK: '',
-  PROXIO_COLOR_TEXT_MUTED: '',
+  
 
   PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
   PROXIO_WELCOME_TEXT: '所谓技术 应是热爱的延伸 所谓财富 应是自由的底气', // 欢迎文字，留空则不启用
