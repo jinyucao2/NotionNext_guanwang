@@ -97,7 +97,7 @@ const LayoutIndex = props => {
     const { locale } = useGlobal()
     const posts = props?.allNavPages ? props.allNavPages.slice(0, count) : []
     return (
-        <>
+        <div className='proxio-home'>
             {/* 英雄区 */}
             {siteConfig('PROXIO_HERO_ENABLE', true, CONFIG) && <Hero {...props} />}
             {/* 博文列表 */}
@@ -147,7 +147,7 @@ const LayoutIndex = props => {
             {siteConfig('PROXIO_CTA_ENABLE', true, CONFIG) && <CTA />}
 
             {siteConfig('PROXIO_WELCOME_COVER_ENABLE', false, CONFIG) && <LoadingCover />}
-        </>
+        </div>
     )
 }
 
