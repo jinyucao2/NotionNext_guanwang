@@ -277,6 +277,11 @@ const Style = () => {
       box-shadow: none !important;
     }
   }
+
+  /* Keep every Proxio content module on the same dark canvas. */
+  :is(.dark #theme-proxio .proxio-home section) {
+    background-color: var(--proxio-console-dark) !important;
+  }
   `}</style>
 }
 
