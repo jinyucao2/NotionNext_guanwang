@@ -263,6 +263,20 @@ const Style = () => {
 }
 
       ${themeConsoleStyle('proxio', CONFIG)}
+
+  /*
+   * themeConsoleStyle maps every element carrying bg-white to the configured
+   * card colour with !important. The responsive lg:bg-transparent utility on
+   * the navigation therefore cannot win on desktop, leaving a white block
+   * behind the white home-page links. Keep the card only for the collapsed
+   * mobile menu and make the desktop navigation explicitly transparent.
+   */
+  @media (min-width: 960px) {
+    #theme-proxio #navbarCollapse {
+      background-color: transparent !important;
+      box-shadow: none !important;
+    }
+  }
   `}</style>
 }
 
