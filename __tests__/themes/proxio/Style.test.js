@@ -14,4 +14,13 @@ describe('proxio Style', () => {
     expect(css).toMatch(/background-color: transparent !important/)
     expect(css).toMatch(/box-shadow: none !important/)
   })
+
+  it('uses one dark background across all content modules', () => {
+    const { container } = render(<Style />)
+    const css = container.querySelector('style').textContent
+
+    expect(css).toMatch(
+      /:is\(\.dark #theme-proxio \.proxio-home section\)[\s\S]*background-color: var\(--proxio-console-dark\) !important/
+    )
+  })
 })
