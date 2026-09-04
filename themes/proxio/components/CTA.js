@@ -38,7 +38,7 @@ export const CTA = () => {
                     <>
                       <SmartLink
                         href={siteConfig('PROXIO_CTA_BUTTON_URL', '')}
-                        className='inline-flex items-center justify-center rounded-2xl bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2'>
+                        className='inline-flex items-center justify-center rounded-2xl bg-white px-7 py-[14px] text-center text-base font-medium text-dark dark:text-white shadow-1 transition duration-300 ease-in-out hover:bg-gray-2'>
                         {siteConfig('PROXIO_CTA_BUTTON_TEXT')}
                       </SmartLink>
                     </>
