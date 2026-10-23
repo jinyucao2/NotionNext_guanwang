@@ -6,6 +6,26 @@ import { themeConsoleStyle } from '@/lib/themeConsoleStyle'
 // around runtime CSS can detach the media query from its rules.
 const navigationStyles = `
   @media (max-width: 959px) {
+    #theme-proxio .ud-header {
+      background-color: #ffffff !important;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    #theme-proxio .ud-header .header-logo-text {
+      color: #111928 !important;
+    }
+    #theme-proxio .ud-header #navbarToggler span {
+      background-color: #111928 !important;
+    }
+    .dark #theme-proxio .ud-header {
+      background-color: #111928 !important;
+      border-bottom-color: #374151;
+    }
+    .dark #theme-proxio .ud-header .header-logo-text {
+      color: #ffffff !important;
+    }
+    .dark #theme-proxio .ud-header #navbarToggler span {
+      background-color: #ffffff !important;
+    }
     #theme-proxio .ud-header #navbarCollapse {
       background-color: #ffffff !important;
       border: 1px solid #e5e7eb;
