@@ -2,6 +2,37 @@
 import CONFIG from './config'
 import { themeConsoleStyle } from '@/lib/themeConsoleStyle'
 
+// Keep responsive rules in one CSS string: splitting a styled-jsx template
+// around runtime CSS can detach the media query from its rules.
+const navigationStyles = `
+  @media (max-width: 959px) {
+    #theme-proxio .ud-header #navbarCollapse {
+      background-color: #ffffff !important;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 12px 32px rgba(17, 25, 40, 0.18) !important;
+    }
+    #theme-proxio .ud-header #navbarCollapse li > a,
+    #theme-proxio .ud-header #navbarCollapse li > button {
+      color: #111928 !important;
+    }
+    .dark #theme-proxio .ud-header #navbarCollapse {
+      background-color: #111928 !important;
+      border-color: #374151;
+    }
+    .dark #theme-proxio .ud-header #navbarCollapse li > a,
+    .dark #theme-proxio .ud-header #navbarCollapse li > button {
+      color: #ffffff !important;
+    }
+  }
+  @media (min-width: 960px) {
+    #theme-proxio .ud-header #navbarCollapse {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      border: 0;
+    }
+  }
+`
+
 /**
  * 此处样式只对当前主题生效
  * 此处不支持tailwindCSS的 @apply 语法
@@ -262,21 +293,7 @@ const Style = () => {
   width: auto;
 }
 
-      ${themeConsoleStyle('proxio', CONFIG)}
-
-  /*
-   * themeConsoleStyle maps every element carrying bg-white to the configured
-   * card colour with !important. The responsive lg:bg-transparent utility on
-   * the navigation therefore cannot win on desktop, leaving a white block
-   * behind the white home-page links. Keep the card only for the collapsed
-   * mobile menu and make the desktop navigation explicitly transparent.
-   */
-  @media (min-width: 960px) {
-    #theme-proxio #navbarCollapse {
-      background-color: transparent !important;
-      box-shadow: none !important;
-    }
-  }
+      ${themeConsoleStyle('proxio', CONFIG) + navigationStyles}
 
   /* Keep every Proxio content module on the same dark canvas. */
   :is(.dark #theme-proxio .proxio-home section) {
@@ -286,3 +303,4 @@ const Style = () => {
 }
 
 export { Style }
+
