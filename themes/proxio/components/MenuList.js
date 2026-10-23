@@ -55,6 +55,14 @@ export const MenuList = props => {
     links = menuLinks
   }
 
+  links = links.concat({
+    icon: 'fas fa-coins',
+    name: '黄金策略',
+    href: 'https://gold.light-anchor.pro/',
+    target: '_blank',
+    show: true
+  })
+
   const toggleMenu = () => {
     setShowMenu(!showMenu) // 切换菜单状态
   }
@@ -114,3 +122,4 @@ export const MenuList = props => {
     </div>
   )
 }
+
